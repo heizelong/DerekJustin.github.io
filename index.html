@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		//Heizel's R. ONG website Programmed and Designed By
+		//Derek Justin Ronquillo, This Website is dedicated
+		//Only to Heizel R. ONG, Contact me at Facebook
+		//@Derek Justin Ronquillo
+		//if you need a web, apps and software developer
+		//hosted by github, this website is an open-source
+		//website Developed by Derek Justin Ronquillo
+		//(C)Copyright by Derek Justin Ronquillo
+	</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Heizel Ong's Official Website</title>
+	<style type="text/css">
+		#navDDC{
+			width:100%;
+			height:auto;
+			padding: 10px 10px 10px 10px;
+			background: #faf0e6;
+			position: fixed;
+			display: block;
+			top:0;
+			left: 0;
+			border-bottom: 1px solid black;
+		}
+		#navMMB{
+			width:100%;
+			height:auto;
+			padding: 10px 10px 10px 10px;
+			background: #faf0e6;
+			position: fixed;
+			top:0;
+			left: 0;
+			display: none;
+			border-bottom: 1px solid black;
+		}
+        .SDB {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: rgb(0,0,0);
+          background-color: rgba(0,0,0, 0.9);
+          overflow-x: hidden;
+          transition: 0.5s;
+        }
+
+        .SDBCC {
+          position: relative;
+          top: 25%;
+          width: 100%;
+          text-align: center;
+          margin-top: 30px;
+        }
+
+        .SDB a {
+          padding: 4px;
+          text-decoration: none;
+          font-size: 36px;
+          color: #faf0e6;
+          display: block;
+          transition: 0.6s;
+        }
+
+        .SDB a:hover, .SDB a:focus {
+          color: pink;
+        }
+
+        .SDB .CAT {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          font-size: 30px;
+        }
+        @media screen and (max-height: 450px) {
+          .SDB a {font-size: 20px}
+          .SDB .CAT {
+          font-size: 40px;
+          top: 15px;
+          left: 15px;
+          }
+        }
+		a{
+			text-decoration: none;
+			color: #444;
+			font-family: arial;
+			font-weight: lighter;
+			font-size: 20px;
+			margin-left: 10px;
+		}
+		#LLFT{
+			font-size: 30px;
+			font-weight: lighter;
+			color: black;
+			font-family: sans-serif;
+			text-align: center;
+		}
+		#LCC{
+			font-size: 15px;
+			font-weight: lighter;
+			color: black;
+			margin-top: -15px;
+			font-family: sans-serif;
+			text-align: center;
+		}
+		#imgg{
+			  background: url("cookie.jpg");
+			  background-repeat: no-repeat;
+			  background-size: 100%;
+              width: 300px;
+              height: 300px;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+		}
+		.footerr{
+			background: pink;
+			border-top: 1px solid black;
+			width: 100%;
+			height: 30px;
+			bottom: 0px;
+			left: 0px;
+			position: fixed;
+			display: block;
+		}.CEC{
+			margin-top: -200px;
+		}
+		.BBD{
+			background-image: linear-gradient(30deg, #faf0e6, pink);
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: scroll;;
+		}
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+          background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: rgba(0,0,0, 0.4);
+          border-radius: 50px;
+          border: 1px solid white;
+          width: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+          background: rgba(0,0,0, 1);
+          border-radius: 50px;
+          border: 1px solid white;
+          width: 3px;
+        }
+	</style>
+</head>
+<body>
+<div class="BBD">
+<div id="navDDC">
+	<a href="#">Home</a>
+	<a href="#">Gallery</a>
+	<a href="#">Business</a>
+	<a href="#">Contact</a>
+	<a href="#">About</a>
+  <div style="float: right; margin-right: 30px;">
+  	<a href="#" class="fa fa-code"></a>
+  </div>
+    </div>
+<div id="navMMB">
+   <a href="#">Home</a>
+   <div style="float: right; margin-right: 30px;">
+  	<a onclick="SHDB()" class="fa fa-bars"></a>
+  </div>
+</div>
+	<div id="imgg"></div>
+
+	<div class="CEC">
+		<h3 id="LLFT">I'm Heizel Ong</h3>
+		<h4 id="LCC"> Hi! i'm Heizel i wanted to be a chef when i grew up. </h4>
+		<h4 id="LCC"> My passion is all about business and baking </h4>
+		<h4 id="LCC"> I really love baking. I bake cookies and Cakes! </h4>
+		<h4 id="LCC"> I Hope you will like my Cookies and my Cakes! </h4>
+	</div>
+		
+<div class="footerr">
+	<a>Programmed by Derek Ronquillo</a>
+
+</div>
+
+<div id="SDB" class="SDB">
+  <a href="javascript:void(0)" class="CAT" onclick="HDDB()">&times;</a>
+  <div class="SDBCC">
+    <a href="#">Gallery</a>
+    <a href="#">Business</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+  </div>
+</div>
+</div>
+	<script type="text/javascript">
+		//Desktop View
+		if(window.innerWidth > 800){
+			document.getElementById("LLFT").style.marginTop = "210px";
+			document.getElementById("imgg").style.marginTop = "60px";
+			document.getElementById("navDDC").style.display = "block";
+			document.getElementById("navMMB").style.display = "none";
+
+			document.getElementById("imgg").style.borderStyle = "groove";
+			document.getElementById("imgg").style.borderWidth = "10px";
+			document.getElementById("imgg").style.borderColor = "#CAA3EF";
+			document.getElementById("imgg").style.borderRadius = "25px";
+			document.getElementById("imgg").style.boxShadow = "0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e75e9c, 0 0 40px #e75e9c, 0 0 50px #e75e9c, 0 0 60px #e75e9c, 0 0 70px #e75e9c";
+		}
+		//fix view
+		else{
+			document.getElementById("LLFT").style.marginTop = "220px";
+			document.getElementById("imgg").style.marginTop = "60px";
+
+			document.getElementById("imgg").style.borderStyle = "groove";
+			document.getElementById("imgg").style.borderWidth = "10px";
+			document.getElementById("imgg").style.borderColor = "#CAA3EF";
+			document.getElementById("imgg").style.borderRadius = "25px";
+			document.getElementById("imgg").style.boxShadow = "0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e75e9c, 0 0 40px #e75e9c, 0 0 50px #e75e9c, 0 0 60px #e75e9c, 0 0 70px #e75e9c";
+		}
+		//Phone&Tab view
+		if(window.innerWidth < 800){
+			document.getElementById("imgg").style.marginTop = "60px";
+			document.getElementById("LLFT").style.marginTop = "220px";
+			document.getElementById("navDDC").style.display = "none";
+			document.getElementById("navMMB").style.display = "block";
+			document.getElementById("imgg").style.boxShadow = "none";
+
+			document.getElementById("imgg").style.borderStyle = "groove";
+			document.getElementById("imgg").style.borderWidth = "10px";
+			document.getElementById("imgg").style.borderColor = "#CAA3EF";
+			document.getElementById("imgg").style.borderRadius = "25px";
+			document.getElementById("imgg").style.boxShadow = "0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e75e9c, 0 0 40px #e75e9c, 0 0 50px #e75e9c, 0 0 60px #e75e9c, 0 0 70px #e75e9c";
+		}
+		if (window.innerWidth < 400) {
+			document.getElementById("imgg").style.width = "200px";
+			document.getElementById("imgg").style.height = "200px";
+		}
+		if (window.innerWidth > 400) {
+			document.getElementById("imgg").style.width = "300px";
+			document.getElementById("imgg").style.height = "300px";
+		}
+		function SHDB() {
+          document.getElementById("SDB").style.width = "100%";
+        }
+
+        function HDDB() {
+          document.getElementById("SDB").style.width = "0%";
+        }
+	</script>
+</body>
+</html>
